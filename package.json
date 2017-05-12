@@ -1,0 +1,20 @@
+{
+  "name": "bitmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coin-math": "0.0.1",
+    "coinbase": "^2.0.6",
+    "gdax": "^0.4.2",
+    "ts-node": "^3.0.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.3.2",
+    "typings": "^2.1.1"
+  }
+}

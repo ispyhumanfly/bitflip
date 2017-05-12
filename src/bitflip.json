@@ -1,0 +1,17 @@
+{
+    "members" :
+        [
+            {
+                "id" : "jenkraydich@gmail.com",
+                "bitcoin" : 0.111212
+            },
+            {
+                "id" : "nfurey2@comcast.net",
+                "bitcoin" : 0.111212
+            },
+            {
+                "id" : "coinbase@thoughtpivot.com",
+                "bitcoin" : 0.111212
+            }
+        ]
+}
