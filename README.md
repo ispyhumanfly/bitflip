@@ -1,2 +1,2 @@
-# bitflip
-Portfolio automation robots for Coinbase and GDAX.
+# Bitflip
+Portfolio intelligence for Coinbase, Poloniex and Bitfinex. Edit
