@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bitfinex": "^1.0.3",
     "coin-math": "0.0.1",
     "coinbase": "^2.0.6",
     "gdax": "^0.4.2",
+    "poloniex.js": "0.0.7",
     "ts-node": "^3.0.2",
     "tsc": "^1.20150623.0",
     "typescript": "^2.3.2",
