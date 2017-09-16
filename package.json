@@ -10,9 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "bitfinex": "^1.0.3",
+    "bitfinex-api-node": "^1.2.0",
     "coin-math": "0.0.1",
     "coinbase": "^2.0.6",
     "gdax": "^0.4.2",
+    "install": "^0.10.1",
+    "npm": "^5.4.1",
     "poloniex.js": "0.0.7",
     "ts-node": "^3.0.2",
     "tsc": "^1.20150623.0",

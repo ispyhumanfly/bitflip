@@ -4,7 +4,10 @@ import * as coinbase from "coinbase"
 import * as math from "coin-math"
 import * as process from "process"
 
-let client = new coinbase.Client({'apiKey': process.env.COINBASE_APIKEY, 'apiSecret': process.env.COINBASE_APISECRET})
+const API_KEY = process.env.COINBASE_APIKEY
+const API_SECRET = process.env.COINBASE_APISECRET
+
+let client = new coinbase.Client({'apiKey': API_KEY, 'apiSecret': API_SECRET})
 
 client.getAccounts({}, (err, accounts) => {
 
