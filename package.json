@@ -16,6 +16,7 @@
     "gdax": "^0.4.2",
     "install": "^0.10.1",
     "poloniex.js": "0.0.7",
+    "process": "^0.11.10",
     "ts-node": "^3.0.2",
     "typescript": "^2.3.2"
   }
