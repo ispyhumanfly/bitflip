@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dan Stephenson (ispyhumanfly)",
+  "license": "MIT",
   "dependencies": {
     "bitfinex": "^1.0.3",
     "bitfinex-api-node": "^1.2.0",
@@ -20,6 +20,5 @@
     "ts-node": "^3.0.2",
     "tsc": "^1.20150623.0",
     "typescript": "^2.3.2",
-    "typings": "^2.1.1"
   }
 }

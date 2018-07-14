@@ -7,4 +7,4 @@ Officia fugiat non amet fugiat fugiat eu incididunt ex cupidatat eiusmod exercit
 # License
 MIT
 # Copyright
-2017 Dan Stephenson (ispyhumanfly)
+2017 - 2018 Dan Stephenson (ispyhumanfly)

@@ -11,13 +11,13 @@
 
   },
   "files" : [
-    "./src/avian.cli.ts",
-    "./src/avian.spec.ts"
+    "./src/coinbase.ts",
+    "./src/bitfinex.ts",
+    "./src/poloniex.ts"
   ],
   "exclude": [
       "node_modules",
-      "dist",
-      "spec"
-  ],
+      "dist"  
+    ],
   "compileOnSave": false
 }
