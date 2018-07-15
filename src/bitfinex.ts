@@ -2,8 +2,8 @@
 import * as BFX from "bitfinex-api-node"
 import * as process from "process"
 
-const API_KEY = process.env.BITFINEX_APIKEY
-const API_SECRET = process.env.BITFINEX_APISECRET
+const API_KEY = process.env.BITFLIP_BITFINEX_APIKEY
+const API_SECRET = process.env.BITFLIP_BITFINEX_APISECRET
 
 const options = {
     version: 2,
