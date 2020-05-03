@@ -1,4 +1,4 @@
-#!/usr/local/bin/ts-node -F
+#!/usr/bin/env ts-node
 
 import * as coinbase from "coinbase"
 import * as math from "coin-math"
@@ -7,7 +7,8 @@ import * as process from "process"
 const API_KEY = process.env.BITFLIP_COINBASE_APIKEY
 const API_SECRET = process.env.BITFLIP_COINBASE_APISECRET
 
-let client = new coinbase.Client({'apiKey': API_KEY, 'apiSecret': API_SECRET})
+let client = new coinbase.Client({'apiKey': API_KEY, 'apiSecret': API_SECRET,    strictSSL: false
+})
 
 client.getAccounts({}, (err, accounts) => {
 
@@ -20,6 +21,7 @@ client.getAccounts({}, (err, accounts) => {
             // Getting the balance amount.
 
             let amount: number = account.balance.amount
+            console.log(`${account.name} has ${amount}`)
 
             // Listing all of its transactions.
 
@@ -27,13 +29,24 @@ client.getAccounts({}, (err, accounts) => {
                     
                 txns.forEach(txn => {
                     
-                    console.log('my txn status: ' + txn.details.title)
+                    console.log('my txn title: ' + txn.details.title)
+                    console.log('native_amount: ' + txn.native_amount.amount)
+
+                })
+            })
+
+            // List buys...
+            account.getBuys(null, (err, txs) => {
+
+                txs.forEach(buy => {
+                
+                    console.log(buy.total)
                 })
             })
 
             // Send money to another wallet.
 
-            /* account.requestMoney({'to': 'jenkraydich@gmail.com',
+            /* account.requestMoney({'to': 'jane-doe@gmail.com',
                                 'amount': '0.11380',
                                 'currency': 'BTC',
                                 'idem': '9316dd16-0c5'}, function(err, tx) {
