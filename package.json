@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@coinbase/coinbase-sdk": "^0.6.0",
+    "axios": "^1.7.7",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

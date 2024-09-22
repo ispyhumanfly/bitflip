@@ -5,8 +5,12 @@ use JSON::Fast;
 use OpenSSL::HMAC;
 use MIME::Base64;
 
-my $api-key = 'your_api_key';
-my $api-secret = 'your_api_secret';
+use Env::Dotenv :ALL;
+
+dotenv_load();
+
+my $api-key = %*ENV<COINBASE_API_KEY>;
+my $api-secret = %*ENV<COINBASE_API_SECRET>;
 my $passphrase = 'your_passphrase';
 my $api-url = 'https://api.pro.coinbase.com';
 

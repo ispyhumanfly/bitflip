@@ -1,5 +1,6 @@
 #!raku
 
+use v6;
 use HTTP::UserAgent;
 use JSON::Fast;
 
@@ -26,7 +27,7 @@ sub get-related-companies($ticker) {
 
 # Function to get details for a specific ticker
 sub get-ticker($ticker) {
-    my $url = "https://api.polygon.io/v3/reference/tickers?ticker=$ticker?apiKey=$api-key";
+    my $url = "https://api.polygon.io/v3/reference/tickers?ticker=$ticker&apiKey=$api-key";
     my $ua = HTTP::UserAgent.new;
     my $response = $ua.get($url);
 
@@ -46,9 +47,9 @@ for @symbols -> $symbol {
 
 
     # Example usage of get-ticker
-    say "Fetching details for AAPL...";
+    say "Fetching details for $symbol...";
     my $ticker-details = get-ticker($symbol);
-    say "Ticker details for AAPL: ", $ticker-details.perl;
+    say "Ticker details for $symbol: ", $ticker-details.perl;
 
 }
 
