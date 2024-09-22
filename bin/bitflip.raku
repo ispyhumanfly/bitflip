@@ -6,6 +6,10 @@ use MIME::Base64;
 use Crypt::Hmac;
 use Crypt::Hmac::SHA256;
 
+use Env::Dotenv :ALL;
+
+dotenv_load();
+
 my $apiKey = 'YOUR_COINBASE_API_KEY';
 my $apiSecret = 'YOUR_COINBASE_API_SECRET';
 my $apiUrl = 'https://api.pro.coinbase.com';

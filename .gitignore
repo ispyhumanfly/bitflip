@@ -17,4 +17,5 @@ typings/*
 *.log
 npm-debug*
 *.map
-
+lib
+.env

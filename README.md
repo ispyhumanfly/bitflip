@@ -2,9 +2,10 @@
 
 Portfolio intelligence for Coinbase, Poloniex and Bitfinex.
 
-## About
+## Notes
 
-Officia fugiat non amet fugiat fugiat eu incididunt ex cupidatat eiusmod exercitation consectetur ad. Culpa quis culpa enim ipsum sunt sunt. Non nisi aliqua est nostrud ipsum velit est Lorem ex elit cupidatat magna.
+- Polygon ticker data is available for free from [Polygon.io](https://polygon.io/).
+- Coinbase Pro API is available for free from [Coinbase Pro](https://pro.coinbase.com/).
 
 ## License
 
@@ -12,4 +13,4 @@ MIT
 
 ## Copyright
 
-2017 - 2020 Dan Stephenson (ispyhumanfly)
+2017 - 2024 Dan Stephenson (ispyhumanfly)
