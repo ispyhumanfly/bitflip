@@ -1,7 +1,7 @@
 #!ts-node
 
 const { sign } = require("jsonwebtoken");
-const crypto = require("crypto");
+import crypto from "crypto";
 import * as dotenv from "dotenv";
 
 dotenv.config();
@@ -31,6 +31,6 @@ const token = sign(
       kid: key_name,
       nonce: crypto.randomBytes(16).toString("hex"),
     },
-  }
+  },
 );
 console.log(token);

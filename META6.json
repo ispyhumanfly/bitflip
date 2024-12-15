@@ -1,21 +1,19 @@
 {
-    "perl" : "6.c",
-    "name" : "Vortex::TotalPerspective",
-    "api"  : "1",
-    "auth" : "github:ispyhumanfly",
-    "version" : "0.0.1",
-    "description" : "Wonderful simulation to get some perspective.",
-    "authors" : [ "Your Name" ],
-    "license" : "Artistic-2.0",
-    "provides" : {
-        "Vortex::TotalPerspective" : "lib/Vortex/TotalPerspective.rakumod"
-    },
-    "depends" : [ ],
-    "build-depends" : [ ],
-    "test-depends" : [ ],
-    "resources" : [ ],
-    "tags": [
-      "Vortex", "Total", "Perspective"
-    ],
-    "source-url" : "git://github.com/you/Vortex-TotalPerspective.git"
+  "perl": "6.c",
+  "name": "Vortex::TotalPerspective",
+  "api": "1",
+  "auth": "github:ispyhumanfly",
+  "version": "0.0.1",
+  "description": "Wonderful simulation to get some perspective.",
+  "authors": ["Your Name"],
+  "license": "Artistic-2.0",
+  "provides": {
+    "Vortex::TotalPerspective": "lib/Vortex/TotalPerspective.rakumod"
+  },
+  "depends": [],
+  "build-depends": [],
+  "test-depends": [],
+  "resources": [],
+  "tags": ["Vortex", "Total", "Perspective"],
+  "source-url": "git://github.com/you/Vortex-TotalPerspective.git"
 }
