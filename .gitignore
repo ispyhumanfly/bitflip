@@ -1,4 +1,5 @@
 node_modules
+.venv
 bower_components
 typings/*
 !typings/index.d.ts

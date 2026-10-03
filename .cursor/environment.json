@@ -1,7 +1,11 @@
 {
-  "mcpServers": {
-    "robinhood": {
-      "url": "https://agent.robinhood.com/mcp/trading"
+  "name": "Bitflip",
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh",
+  "ports": [
+    {
+      "name": "prefect",
+      "port": 4200
     }
-  }
+  ]
 }
